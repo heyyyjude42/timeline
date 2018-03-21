@@ -2,27 +2,23 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
-  text-align: left;
-  color: #eed;
-  background-color: #334;
+  text-align: center;
+  font-weight: lighter;
+  color: #444;
+  background-color: #ffe;
   transition: all .4s ease-in-out;
+  letter-spacing: 0.5px;
 }
 
 .head {
   font-weight: lighter;
   letter-spacing: 3px;
-  padding: 35px 30px 30px 30px;
-  background-color: #eed;
-  color: #334;
-  margin-top: -5px;
-  margin-bottom: 70px;
+  padding-bottom: 45px;
+  color: #444;
+  margin: 50px;
+  border-bottom: 1px dashed #444;
 }
 
-.bottomnav {
-  overflow: hidden;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  padding-right: 40px;
-  padding-bottom: 18px;
+.label {
+  margin: 10px;
 }
