@@ -12,16 +12,6 @@ function label(text, variable) {
   return <div class="label">{text}: {variable}</div>;
 }
 
-class Game extends React.Component {
-  render() {
-    return(
-      <div>
-        Game Here!
-      </div>
-    );
-  }
-}
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -34,11 +24,11 @@ class App extends React.Component {
       option1 : opt1,
       option2: opt2,
       gameOver: false,
+      label: "Which came first?",
     };
   }
 
   getNewChoice() {
-    console.log(choices.length);
     if (this.choicesLeft.length === 0) {
       this.choicesLeft = choices.slice();
       if (this.choicesLeft.indexOf(this.state.option1) > -1) {
@@ -99,6 +89,7 @@ class App extends React.Component {
     } else {
       this.setState({
         gameOver: true,
+        label: "Game Over :(",
       });
     }
   }
@@ -110,10 +101,13 @@ class App extends React.Component {
     return (
       <div>
         {header()}
+        <div>{this.state.label}</div>
+        <div class="choicesPanel">
+          <button class="option" onClick={() => this.opt1Clicked()}>{opt1ToDisplay}</button>
+          <button class="option" onClick={() => this.opt2Clicked()}>{opt2ToDisplay}</button>
+        </div>
         {label("Score", this.state.score)}
         {label("High Score", this.state.highscore)}
-        <button onClick={() => this.opt1Clicked()}>{opt1ToDisplay}</button>
-        <button onClick={() => this.opt2Clicked()}>{opt2ToDisplay}</button>
       </div>
     );
   }

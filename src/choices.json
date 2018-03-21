@@ -18,9 +18,57 @@
     "detail" : "maybe a url"
   },
   {
-    "choice" : "Treaty of Versailles (non-disambiguation)",
+    "choice" : "Treaty of Versailles",
     "year" : 1919,
     "month" : 6,
     "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Harry Potter",
+      "year" : 1997,
+      "month" : 6,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Pokemon",
+      "year" : 1999,
+      "month" : 4,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "William Shakespeare",
+      "year" : 1564,
+      "month" : 4,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Java",
+      "year" : 1996,
+      "month" : 1,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Crimean War",
+      "year" : 1853,
+      "month" : 10,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Titanic sinking",
+      "year" : 1912,
+      "month" : 4,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Genghis Khan",
+      "year" : 1162,
+      "month" : 7,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Chernobyl disaster",
+      "year" : 1986,
+      "month" : 4,
+      "detail" : "maybe a url"
   }
 ]

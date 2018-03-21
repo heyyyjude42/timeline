@@ -22,3 +22,33 @@ body {
 .label {
   margin: 10px;
 }
+
+.choicesPanel {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.option {
+  padding: 30px;
+  margin-top: 10px;
+  background-color: #eed;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  border: 0px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover{
+  background-color: #ccb;
+}
+
+button:active {
+  background-color: #aa9;
+}
