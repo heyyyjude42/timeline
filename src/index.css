@@ -1,5 +1,28 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+  color: #eed;
+  background-color: #334;
+  transition: all .4s ease-in-out;
+}
+
+.head {
+  font-weight: lighter;
+  letter-spacing: 3px;
+  padding: 35px 30px 30px 30px;
+  background-color: #eed;
+  color: #334;
+  margin-top: -5px;
+  margin-bottom: 70px;
+}
+
+.bottomnav {
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding-right: 40px;
+  padding-bottom: 18px;
 }
