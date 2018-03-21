@@ -94,6 +94,20 @@ class App extends React.Component {
     }
   }
 
+  restart() {
+    console.log("restart clicked");
+    this.choicesLeft = choices.slice();
+    const opt1 = this.getNewChoice();
+    const opt2 = this.getNewChoice();
+    this.setState({
+      score : 0,
+      option1 : opt1,
+      option2: opt2,
+      gameOver: false,
+      label: "Which came first?",
+    });
+  }
+
   render() {
     const opt1ToDisplay = this.state.option1["choice"];
     const opt2ToDisplay = this.state.option2["choice"];
@@ -101,13 +115,16 @@ class App extends React.Component {
     return (
       <div>
         {header()}
-        <div>{this.state.label}</div>
-        <div class="choicesPanel">
+        <div style={{"marginBottom": this.state.gameOver ? '30px' : '0px'}}>{this.state.label}</div>
+        <div style={{display: this.state.gameOver ? 'none' : 'flex'}} class="choicesPanel">
           <button class="option" onClick={() => this.opt1Clicked()}>{opt1ToDisplay}</button>
           <button class="option" onClick={() => this.opt2Clicked()}>{opt2ToDisplay}</button>
         </div>
         {label("Score", this.state.score)}
         {label("High Score", this.state.highscore)}
+        <div style={{display: this.state.gameOver ? 'block' : 'none' }}>
+          <button class="restart" onClick={() => this.restart()}>Restart</button>
+        </div>
       </div>
     );
   }
