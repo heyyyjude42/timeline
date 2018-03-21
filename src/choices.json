@@ -60,8 +60,8 @@
       "detail" : "maybe a url"
   },
   {
-      "choice" : "Genghis Khan",
-      "year" : 1162,
+      "choice" : "French Revolution",
+      "year" : 1789,
       "month" : 7,
       "detail" : "maybe a url"
   },
@@ -69,6 +69,30 @@
       "choice" : "Chernobyl disaster",
       "year" : 1986,
       "month" : 4,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Tetris",
+      "year" : 1984,
+      "month" : 6,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "New York Times",
+      "year" : 1851,
+      "month" : 9,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Toy Story",
+      "year" : 1995,
+      "month" : 11,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "iPod Nano",
+      "year" : 2005,
+      "month" : 9,
       "detail" : "maybe a url"
   }
 ]
