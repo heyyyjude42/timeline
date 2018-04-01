@@ -160,5 +160,29 @@
       "year" : 1813,
       "month" : 1,
       "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Arrival of a Train at La Ciotat",
+      "year" : 1896,
+      "month" : 1,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Republic of Indonesia",
+      "year" : 1945,
+      "month" : 8,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Start of California Gold Rush",
+      "year" : 1848,
+      "month" : 1,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Herbert Hoover",
+      "year" : 1874,
+      "month" : 8,
+      "detail" : "maybe a url"
   }
 ]
