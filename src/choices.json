@@ -94,5 +94,71 @@
       "year" : 2005,
       "month" : 9,
       "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Captain Kidd",
+      "year" : 1645,
+      "month" : 1,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Last French execution",
+      "year" : 1977,
+      "month" : 9,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Delta Airlines",
+      "year" : 1924,
+      "month" : 5,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Les Misérables",
+      "year" : 1980,
+      "month" : 9,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Massachusetts",
+      "year" : 1788,
+      "month" : 6,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Mario Bros",
+      "year" : 1983,
+      "month" : 7,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Google",
+      "year" : 1998,
+      "month" : 4,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Louisiana Purchase",
+      "year" : 1803,
+      "month" : 4,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Nikola Tesla",
+      "year" : 1856,
+      "month" : 7,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "1st Academy Awards",
+      "year" : 1929,
+      "month" : 5,
+      "detail" : "maybe a url"
+  },
+  {
+      "choice" : "Pride and Prejudice",
+      "year" : 1813,
+      "month" : 1,
+      "detail" : "maybe a url"
   }
 ]
